@@ -1,16 +1,18 @@
 import React from 'react';
 import MainPage from './pages/MainPage';
-import GlobalStyle from './globalStyles';
 import Header from './components/Header';
-import styled from 'styled-components'
+import GlobalStyle from './globalStyles';
+import styled from 'styled-components';
 
 const Page = styled.section`
   width: 100vw;
-  height: 100vh;
+  height: 88vh;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
+  background-color: white;
+  padding-top: 12vh;
 `
 
 function App() {

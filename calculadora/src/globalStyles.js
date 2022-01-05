@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    color: white;
-`;
+    font-family: Arial;
+  }`;
  
 export default GlobalStyle;
