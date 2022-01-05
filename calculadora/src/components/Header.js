@@ -7,8 +7,8 @@ const PageHeader = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20vw;
-    padding: 1vh 0;
+    width: 20.4vw;
+    padding: 2vh 0;
 `
 
 const Logo = styled.img`
@@ -19,7 +19,7 @@ const Logo = styled.img`
 function Header() {
     return (
         <PageHeader>
-            <Logo src={logo} alt={"Logo da empresa"}/>
+            <Logo src={logo} alt={"Logo da empresa"} />
         </PageHeader>
     );
 }

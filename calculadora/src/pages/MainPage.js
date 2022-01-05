@@ -1,12 +1,14 @@
 import React from 'react';
-import CalcButton from "../components/CalcButton";
 import CalcScreen from '../components/CalcScreen';
 import styled from 'styled-components';
 
 const Container = styled.section`
-    width: 20vw;
+    width: 20.4vw;
+    height: 64.8vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    background-color: #006a6a; 
 `
 
 function MainPage() {
@@ -14,7 +16,6 @@ function MainPage() {
     return (
         <Container>
             <CalcScreen />
-            <CalcButton />
         </Container>
     );
 };
